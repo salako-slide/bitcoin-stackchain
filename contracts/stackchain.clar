@@ -328,7 +328,7 @@
   )
 )
 
-ulates the lock multiplier based on the lock period
+;; Calculates the lock multiplier based on the lock period
 (define-private (calculate-lock-multiplier (lock-period uint))
   (if (>= lock-period u8640) ;; 2 months
     u150 ;; 1.5x multiplier
